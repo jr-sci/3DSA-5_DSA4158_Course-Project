@@ -154,7 +154,7 @@ MyDrive/Amazon/DATASETS/
 
 ---
 
-## Notes & caveats
+## Notes
 
 - The co-review edge threshold (`weight >= 3`) and the top-N cap (`5000`) are tuning knobs. Lowering them grows the graph and PageRank runtime significantly.
 - The Word2Vec hyperparameters in the running code (`vectorSize=64`, `minCount=10`, `maxIter=5`) differ from the print statement above the cell (`128 / 5 / 10`); the cell's actual arguments take precedence.
