@@ -124,7 +124,7 @@ Expect the first end-to-end run to take **several hours**. Re-runs that hit cach
 
 ---
 
-## Key findings (run-dependent)
+## Key findings 
 
 Concrete numbers vary by run, but the pipeline reports:
 
