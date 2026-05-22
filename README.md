@@ -36,7 +36,9 @@ The notebook downloads both files automatically, converts them to Parquet, and c
 
 ## Requirements
 
-The notebook is built for **Google Colab** with Drive mounted. Key dependencies:
+The notebook is built for **Google Colab with Drive** mounted. 
+
+Key dependencies:
 
 ```
 pyspark
