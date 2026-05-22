@@ -11,11 +11,14 @@ Most "top product" rankings on e-commerce platforms reduce to raw popularity (re
 
 The pipeline aims to answers three questions:
 
-1. **Behavioral grouping** — Do co-purchase sequences embed products into meaningful behavioral clusters? *(Word2Vec → K-Means)*
-2. **Structural influence** — Which products act as authority hubs in the co-review graph? *(PageRank on the co-review network)*
-3. **Hub concentration** — Are high-PageRank products distributed uniformly across behavioral clusters, or do they concentrate in specific ones? *(Chi-square test + Spearman correlation)*
+1. **Behavioral grouping**
+   - Do co-purchase sequences embed products into meaningful behavioral clusters? 
+2. **Structural influence**
+   - Which products act as authority hubs in the co-review graph? 
+3. **Hub concentration**
+   - Are high-PageRank products distributed uniformly across behavioral clusters, or do they concentrate in specific ones? 
 
-The output is a merged dataset linking each product to its behavioral cluster, its PageRank score, its popularity, and its rating — plus a set of validation tests and seven visualizations.
+The output is a merged dataset linking each product to its behavioral cluster, its PageRank score, its popularity, and its rating.
 
 ---
 
