@@ -7,7 +7,7 @@ A PySpark pipeline that combines **sequence-based product embeddings** with **gr
 
 ## Overview
 
-Most "top product" rankings on e-commerce platforms reduce to raw popularity (review count or sales rank). This project argues that **popularity ≠ influence**, and tests whether the two diverge in a measurable way.
+Most "top product" rankings on e-commerce platforms reduce to raw popularity (review count or sales rank). This project argues that **popularity does not equal influence**, and tests whether the two diverge in a measurable way.
 
 The pipeline aims to answers three questions:
 
