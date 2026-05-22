@@ -1,7 +1,7 @@
 # 3DSA-5_DSA4158_Course-Project
 # Integration of Word2Vec-Based Sequential Clustering and PageRank Topological Analysis for Identifying Authority Hubs in Amazon Product Metadata
 
-A PySpark pipeline that combines **sequence-based product embeddings** (Word2Vec on user purchase histories) with **graph-based influence scoring** (PageRank on a co-review network) to identify *authority hubs* — products that are not just popular, but structurally influential — in the Amazon Home & Kitchen 2023 dataset.
+A PySpark pipeline that combines **sequence-based product embeddings** with **graph-based influence scoring** to identify *authority hubs* which are products that are not just popular, but structurally influential in the Amazon Home & Kitchen 2023 dataset.
 
 ---
 
